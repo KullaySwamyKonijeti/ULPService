@@ -1,0 +1,97 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:100px;
+}
+.first-container{
+    background-color:#3498DB ;
+    padding: 7px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Arial Narrow Bold';
+    height: 350px;
+    width: 350px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0.5px 0.5px 5px 0.5px #888888;
+
+}
+.second_container{
+    background-color:white ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    height: 350px;
+    width: 350px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0.5px 0.5px 5px 0.5px #888888;
+}
+.first-container p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-container span{
+    color: white;
+    font-size: 38px;
+    font-family:'Arial Narrow Bold';
+}
+.first-container h1{
+    color: white;
+    font-size: 33px;
+    font-family:'Arial Narrow Bold';
+    margin-top: 10px;
+}
+.second_container p {
+    color: black;
+    font-weight: bold;
+    font-size: 34px;
+    font-family:  'Arial Narrow';
+    letter-spacing:1px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+@media (max-width:600px){
+    .main_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .first-container{
+        font-size: 13px;
+        height: 150px;
+        width: 300px;
+        border-radius: 20px 20px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .first-container{
+        margin-top:4px;
+    }
+    .second_container{
+        font-size: 13px;
+        height: 400px;
+        width: 300px;
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+@media (max-width:200px){
+    .main_container{
+        display: none;
+    }
+}
+.errorMsg{
+    color: red;
+}
